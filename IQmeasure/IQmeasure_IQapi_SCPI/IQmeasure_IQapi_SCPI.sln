@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IQmeasure_IQapi_SCPI", "IQmeasure_IQapi_SCPI.vcxproj", "{04AE1AF7-5ECC-4815-80A0-73D5129A6679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		IQAPI_1_5_RELEASE|Win32 = IQAPI_1_5_RELEASE|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04AE1AF7-5ECC-4815-80A0-73D5129A6679}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04AE1AF7-5ECC-4815-80A0-73D5129A6679}.Debug|Win32.Build.0 = Debug|Win32
+		{04AE1AF7-5ECC-4815-80A0-73D5129A6679}.IQAPI_1_5_RELEASE|Win32.ActiveCfg = Release|Win32
+		{04AE1AF7-5ECC-4815-80A0-73D5129A6679}.IQAPI_1_5_RELEASE|Win32.Build.0 = Release|Win32
+		{04AE1AF7-5ECC-4815-80A0-73D5129A6679}.Release|Win32.ActiveCfg = Release|Win32
+		{04AE1AF7-5ECC-4815-80A0-73D5129A6679}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

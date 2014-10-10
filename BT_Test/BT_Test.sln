@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BT_Test", "BT_Test.vcxproj", "{52BA6B11-337F-4DD1-91D2-10CEAC260160}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vDUT", "..\vDUT\vDUT.vcxproj", "{A983BC27-99AC-4E3C-85A0-A30C2122F195}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestManager", "..\TestManager\TestManager.vcxproj", "{AFCFE570-4576-4975-B02F-0866DA0B8371}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IQmeasure", "..\IQmeasure\IQmeasure.vcxproj", "{4ACBB0A3-31DE-4656-BFFA-BD4183A06FD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		IQAPI_1_5_RELEASE|Win32 = IQAPI_1_5_RELEASE|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52BA6B11-337F-4DD1-91D2-10CEAC260160}.Debug|Win32.ActiveCfg = Debug|Win32
+		{52BA6B11-337F-4DD1-91D2-10CEAC260160}.Debug|Win32.Build.0 = Debug|Win32
+		{52BA6B11-337F-4DD1-91D2-10CEAC260160}.IQAPI_1_5_RELEASE|Win32.ActiveCfg = Release|Win32
+		{52BA6B11-337F-4DD1-91D2-10CEAC260160}.IQAPI_1_5_RELEASE|Win32.Build.0 = Release|Win32
+		{52BA6B11-337F-4DD1-91D2-10CEAC260160}.Release|Win32.ActiveCfg = Release|Win32
+		{52BA6B11-337F-4DD1-91D2-10CEAC260160}.Release|Win32.Build.0 = Release|Win32
+		{A983BC27-99AC-4E3C-85A0-A30C2122F195}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A983BC27-99AC-4E3C-85A0-A30C2122F195}.Debug|Win32.Build.0 = Debug|Win32
+		{A983BC27-99AC-4E3C-85A0-A30C2122F195}.IQAPI_1_5_RELEASE|Win32.ActiveCfg = Release|Win32
+		{A983BC27-99AC-4E3C-85A0-A30C2122F195}.IQAPI_1_5_RELEASE|Win32.Build.0 = Release|Win32
+		{A983BC27-99AC-4E3C-85A0-A30C2122F195}.Release|Win32.ActiveCfg = Release|Win32
+		{A983BC27-99AC-4E3C-85A0-A30C2122F195}.Release|Win32.Build.0 = Release|Win32
+		{AFCFE570-4576-4975-B02F-0866DA0B8371}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFCFE570-4576-4975-B02F-0866DA0B8371}.Debug|Win32.Build.0 = Debug|Win32
+		{AFCFE570-4576-4975-B02F-0866DA0B8371}.IQAPI_1_5_RELEASE|Win32.ActiveCfg = Release|Win32
+		{AFCFE570-4576-4975-B02F-0866DA0B8371}.IQAPI_1_5_RELEASE|Win32.Build.0 = Release|Win32
+		{AFCFE570-4576-4975-B02F-0866DA0B8371}.Release|Win32.ActiveCfg = Release|Win32
+		{AFCFE570-4576-4975-B02F-0866DA0B8371}.Release|Win32.Build.0 = Release|Win32
+		{4ACBB0A3-31DE-4656-BFFA-BD4183A06FD6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4ACBB0A3-31DE-4656-BFFA-BD4183A06FD6}.Debug|Win32.Build.0 = Debug|Win32
+		{4ACBB0A3-31DE-4656-BFFA-BD4183A06FD6}.IQAPI_1_5_RELEASE|Win32.ActiveCfg = IQAPI_1_5_RELEASE|Win32
+		{4ACBB0A3-31DE-4656-BFFA-BD4183A06FD6}.IQAPI_1_5_RELEASE|Win32.Build.0 = IQAPI_1_5_RELEASE|Win32
+		{4ACBB0A3-31DE-4656-BFFA-BD4183A06FD6}.Release|Win32.ActiveCfg = Release|Win32
+		{4ACBB0A3-31DE-4656-BFFA-BD4183A06FD6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

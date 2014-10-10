@@ -1,0 +1,16 @@
+//----------------------------------------------------------------------------------------
+// The Mask test requirement must set as following format (Integration Bandwidth 100kHz)
+//----------------------------------------------------------------------------------------
+
+//The Mask_Type can be set to < reference(ref)/absolute(abs) >
+Mask_Type,absolute 
+
+// < Start_Frequency_Offset >,< Stop_Frequency_Offset >,< Limit_1 >,< Limit_2 >,< Integration_Bandwidth >
+5,	6,	-13,	-13,	100
+6,	10,	-13,	-13,	1000
+10,	11,	-13,	-25,	1000
+11,	15,	-25,	-25,	1000
+15,	20,	-25,	-37,	1000
+20,	25,	-37,	-37,	1000
+
+// [NOTE] the Integration Bandwidth (i.e. RBW) minimum support to 3KHz

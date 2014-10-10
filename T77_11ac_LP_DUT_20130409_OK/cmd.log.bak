@@ -1,0 +1,224 @@
+..... .....'..............!.........
+
+BusyBox v0.60.0 (2012.03.09-13:00+0000) Built-in shell (msh)
+Enter 'help' for a list of built-in commands.
+
+# wl -i eth2 down
+# wl -i eth2 mpc 0
+# wl -i eth2 up
+# wl -i eth2 isup
+# wl -i eth2 pkteng_stop
+# wl -i eth2 pkteng_stop
+# wl -i eth2 down
+# wl -i eth2 country ALL
+# wl -i eth2 mimo_bw_cap 1
+# wl -i eth2 phy_percal 3
+# wl -i eth2 phy_watchdog 0
+# wl -i eth2 interference 0
+# wl -i eth2 scansuppress 1
+# wl -i eth2 glacial_timer 150000
+# wl -i eth2 fast_timer 150000
+# wl -i eth2 slow_timer 150000
+# wl -i eth2 bi 60000
+# wl -i eth2 up
+# wl -i eth2 ver
+# wl -i eth2 down
+# wl -i eth2 mimo_preamble 0
+# wl -i eth2 phy_percal 3
+# wl -i eth2 phy_watchdog 0
+# wl -i eth2 interference 0
+# wl -i eth2 scansuppress 1
+# wl -i eth2 tempsense_disable 1
+# wl -i eth2 mimo_bw_cap 1
+# wl -i eth2 band a
+# wl -i eth2 up
+# wl -i eth2 chanspec 36/20
+Chanspec set to 0xd024
+# wl -i eth2 mimo_txbw 2
+# wl -i eth2 phy_forcecal 1
+# wl -i eth2 nrate -r 54
+# wl -i eth2 ssid ""
+Setting SSID: ""
+# wl -i eth2 phy_txpwrctrl 1
+# wl -i eth2 txpwr1 -o -q 60
+# wl -i eth2 txcore -o 0x1
+# wl -i eth2 plcphdr auto
+# wl -i eth2 pkteng_start aa.bb.cc.dd.ee.ff tx sync 50 100 250
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 down
+# wl -i eth2 mimo_preamble 1
+# wl -i eth2 phy_percal 3
+# wl -i eth2 phy_watchdog 0
+# wl -i eth2 interference 0
+# wl -i eth2 scansuppress 1
+# wl -i eth2 tempsense_disable 1
+# wl -i eth2 mimo_bw_cap 1
+# wl -i eth2 up
+# wl -i eth2 down
+# wl -i eth2 band a
+# wl -i eth2 up
+# wl -i eth2 chanspec 40/80
+Chanspec set to 0xe12a
+# wl -i eth2 5g_rate auto
+# wl -i eth2 phy_watchdog
+0
+# wl -i eth2 phy_forcecal 1
+# wl -i eth2 5g_rate -v 9x1 -b 80
+# wl -i eth2 ssid ""
+Setting SSID: ""
+# wl -i eth2 phy_txpwrctrl 1
+# wl -i eth2 txpwr1 -o -q 36
+# wl -i eth2 txcore -s 1 -c 0x1
+# wl -i eth2 plcphdr auto
+# wl -i eth2 pkteng_start aa.bb.cc.dd.ee.ff tx sync 50 100 250
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 pkteng_start 00:00:00:c0:ff:ee tx 250 1740 0
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 down
+# wl -i eth2 mimo_preamble 1
+# wl -i eth2 phy_percal 3
+# wl -i eth2 phy_watchdog 0
+# wl -i eth2 interference 0
+# wl -i eth2 scansuppress 1
+# wl -i eth2 tempsense_disable 1
+# wl -i eth2 mimo_bw_cap 1
+# wl -i eth2 up
+# wl -i eth2 down
+# wl -i eth2 band a
+# wl -i eth2 up
+# wl -i eth2 chanspec 40/80
+Chanspec set to 0xe12a
+# wl -i eth2 5g_rate auto
+# wl -i eth2 phy_watchdog
+0
+# wl -i eth2 phy_forcecal 1
+# wl -i eth2 5g_rate -v 9x1 -b 80
+# wl -i eth2 ssid ""
+Setting SSID: ""
+# wl -i eth2 phy_txpwrctrl 1
+# wl -i eth2 txpwr1 -o -q 36
+# wl -i eth2 txcore -s 1 -c 0x2
+# wl -i eth2 plcphdr auto
+# wl -i eth2 pkteng_start aa.bb.cc.dd.ee.ff tx sync 50 100 250
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 pkteng_start 00:00:00:c0:ff:ee tx 250 1740 0
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 down
+# wl -i eth2 mimo_preamble 1
+# wl -i eth2 phy_percal 3
+# wl -i eth2 phy_watchdog 0
+# wl -i eth2 interference 0
+# wl -i eth2 scansuppress 1
+# wl -i eth2 tempsense_disable 1
+# wl -i eth2 mimo_bw_cap 1
+# wl -i eth2 up
+# wl -i eth2 down
+# wl -i eth2 band a
+# wl -i eth2 up
+# wl -i eth2 chanspec 40/80
+Chanspec set to 0xe12a
+# wl -i eth2 5g_rate auto
+# wl -i eth2 phy_watchdog
+0
+# wl -i eth2 phy_forcecal 1
+# wl -i eth2 5g_rate -v 9x1 -b 80
+# wl -i eth2 ssid ""
+Setting SSID: ""
+# wl -i eth2 phy_txpwrctrl 1
+# wl -i eth2 txpwr1 -o -q 36
+# wl -i eth2 txcore -s 1 -c 0x4
+# wl -i eth2 plcphdr auto
+# wl -i eth2 pkteng_start aa.bb.cc.dd.ee.ff tx sync 50 100 250
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 pkteng_start 00:00:00:c0:ff:ee tx 250 1740 0
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 down
+# wl -i eth2 mimo_preamble 1
+# wl -i eth2 phy_percal 3
+# wl -i eth2 phy_watchdog 0
+# wl -i eth2 interference 0
+# wl -i eth2 scansuppress 1
+# wl -i eth2 tempsense_disable 1
+# wl -i eth2 mimo_bw_cap 1
+# wl -i eth2 up
+# wl -i eth2 down
+# wl -i eth2 band a
+# wl -i eth2 up
+# wl -i eth2 chanspec 153/80
+Chanspec set to 0xe19b
+# wl -i eth2 5g_rate auto
+# wl -i eth2 phy_watchdog
+0
+# wl -i eth2 phy_forcecal 1
+# wl -i eth2 5g_rate -v 9x1 -b 80
+# wl -i eth2 ssid ""
+Setting SSID: ""
+# wl -i eth2 phy_txpwrctrl 1
+# wl -i eth2 txpwr1 -o -q 66
+# wl -i eth2 txcore -s 1 -c 0x1
+# wl -i eth2 plcphdr auto
+# wl -i eth2 pkteng_start aa.bb.cc.dd.ee.ff tx sync 50 100 250
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 pkteng_start 00:00:00:c0:ff:ee tx 250 1740 0
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 down
+# wl -i eth2 mimo_preamble 1
+# wl -i eth2 phy_percal 3
+# wl -i eth2 phy_watchdog 0
+# wl -i eth2 interference 0
+# wl -i eth2 scansuppress 1
+# wl -i eth2 tempsense_disable 1
+# wl -i eth2 mimo_bw_cap 1
+# wl -i eth2 up
+# wl -i eth2 down
+# wl -i eth2 band a
+# wl -i eth2 up
+# wl -i eth2 chanspec 153/80
+Chanspec set to 0xe19b
+# wl -i eth2 5g_rate auto
+# wl -i eth2 phy_watchdog
+0
+# wl -i eth2 phy_forcecal 1
+# wl -i eth2 5g_rate -v 9x1 -b 80
+# wl -i eth2 ssid ""
+Setting SSID: ""
+# wl -i eth2 phy_txpwrctrl 1
+# wl -i eth2 txpwr1 -o -q 66
+# wl -i eth2 txcore -s 1 -c 0x2
+# wl -i eth2 plcphdr auto
+# wl -i eth2 pkteng_start aa.bb.cc.dd.ee.ff tx sync 50 100 250
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 pkteng_start 00:00:00:c0:ff:ee tx 250 1740 0
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 down
+# wl -i eth2 mimo_preamble 1
+# wl -i eth2 phy_percal 3
+# wl -i eth2 phy_watchdog 0
+# wl -i eth2 interference 0
+# wl -i eth2 scansuppress 1
+# wl -i eth2 tempsense_disable 1
+# wl -i eth2 mimo_bw_cap 1
+# wl -i eth2 up
+# wl -i eth2 down
+# wl -i eth2 band a
+# wl -i eth2 up
+# wl -i eth2 chanspec 153/80
+Chanspec set to 0xe19b
+# wl -i eth2 5g_rate auto
+# wl -i eth2 phy_watchdog
+0
+# wl -i eth2 phy_forcecal 1
+# wl -i eth2 5g_rate -v 9x1 -b 80
+# wl -i eth2 ssid ""
+Setting SSID: ""
+# wl -i eth2 phy_txpwrctrl 1
+# wl -i eth2 txpwr1 -o -q 66
+# wl -i eth2 txcore -s 1 -c 0x4
+# wl -i eth2 plcphdr auto
+# wl -i eth2 pkteng_start aa.bb.cc.dd.ee.ff tx sync 50 100 250
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 pkteng_start 00:00:00:c0:ff:ee tx 250 1740 0
+# wl -i eth2 pkteng_stop tx
+# wl -i eth2 down
+# wl -i eth2 out
+# exit

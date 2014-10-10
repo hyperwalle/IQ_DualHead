@@ -1,0 +1,63 @@
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+C:\Documents and Settings\V0904568>cd\
+
+C:\>DevCtl.exe
+Access is denied.
+
+C:\>del DevCtl.exe
+
+C:\>DevCtl.exe
+Usage:
+DevCtl.exe list pci                     -- list pci device
+DevCtl.exe list usb                     -- list usb device
+DevCtl.exe dis "HawdwareID"             -- disable a device
+DevCtl.exe en "HawdwareID"              -- enable a device
+DevCtl.exe status "HawdwareID"  -- query a device status
+DevCtl.exe restart "HawdwareID" -- restart a device
+DevCtl.exe rescan "HawdwareID"  -- rescan a device
+
+C:\>DevCtl.exe list  usb
+USB\ROOT_HUB20\4&26DE3387&0                                 : USB Root Hub
+USB\ROOT_HUB20\4&2BEAB0CD&0                                 : USB Root Hub
+USB\VID_0846&PID_9050\000000000001                          : Broadcom 802.11ac Wireless USB Adapter
+USB\VID_093A&PID_2510\6&87169ED&0&5                         : USB Human Interface Device
+USB\VID_8087&PID_0024\5&1FD29786&0&1                        : Generic USB Hub
+USB\VID_8087&PID_0024\5&30E98041&0&1                        : Generic USB Hub
+6 matching device(s) found.
+
+C:\>DevCtl.exe dis USB\VID_0846&PID_9050\000000000001
+No devices disabled.
+The system cannot find the path specified.
+
+C:\>DevCtl.exe dis "USB\VID_0846&PID_9050\000000000001"
+USB\VID_0846&PID_9050\000000000001                          : Disabled
+1 device(s) disabled.
+
+C:\>DevCtl.exe en "USB\VID_0846&PID_9050\000000000001"
+USB\VID_0846&PID_9050\000000000001                          : Enabled
+1 device(s) enabled.
+
+C:\>DevCtl.exe dis "USB\VID_0846&PID_9050\000000000001"
+USB\VID_0846&PID_9050\000000000001                          : Disabled
+1 device(s) disabled.
+
+C:\>DevCtl.exe list  usb
+USB\ROOT_HUB20\4&26DE3387&0                                 : USB Root Hub
+USB\ROOT_HUB20\4&2BEAB0CD&0                                 : USB Root Hub
+USB\VID_0846&PID_9050\000000000001                          : Broadcom 802.11ac Wireless USB Adapter
+USB\VID_093A&PID_2510\6&87169ED&0&5                         : USB Human Interface Device
+USB\VID_8087&PID_0024\5&1FD29786&0&1                        : Generic USB Hub
+USB\VID_8087&PID_0024\5&30E98041&0&1                        : Generic USB Hub
+6 matching device(s) found.
+
+C:\>DevCtl.exe list  usb
+USB\ROOT_HUB20\4&26DE3387&0                                 : USB Root Hub
+USB\ROOT_HUB20\4&2BEAB0CD&0                                 : USB Root Hub
+USB\VID_093A&PID_2510\6&87169ED&0&5                         : USB Human Interface Device
+USB\VID_8087&PID_0024\5&1FD29786&0&1                        : Generic USB Hub
+USB\VID_8087&PID_0024\5&30E98041&0&1                        : Generic USB Hub
+5 matching device(s) found.
+
+C:\>

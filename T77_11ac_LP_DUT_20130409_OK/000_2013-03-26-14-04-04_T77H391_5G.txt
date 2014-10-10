@@ -1,0 +1,608 @@
+================================= Run 1 ===================================
+
+Summary
+1.GLOBAL_SETTINGS ____________________________________________________________
+ANALYSIS_11AC_AMPLITUDE_TRACKING : 0 
+ANALYSIS_11AC_DECODE_PSDU      : 0 
+ANALYSIS_11AC_FREQUENCY_CORRELATION : 2 
+ANALYSIS_11AC_FULL_PACKET_CHANNEL_EST : 1 
+ANALYSIS_11AC_MASK_ACCORDING_CBW : 0 
+ANALYSIS_11AC_PHASE_CORR       : 1 
+ANALYSIS_11AC_SYM_TIMING_CORR  : 1 
+ANALYSIS_11AG_AMPL_TRACK       : 1 
+ANALYSIS_11AG_CH_ESTIMATE      : 1 
+ANALYSIS_11AG_FREQ_SYNC        : 2 
+ANALYSIS_11AG_PH_CORR_MODE     : 2 
+ANALYSIS_11AG_SYM_TIM_CORR     : 2 
+ANALYSIS_11B_DC_REMOVE_FLAG    : 0 
+ANALYSIS_11B_EQ_TAPS           : 1 
+ANALYSIS_11B_FIXED_01_DATA_SEQUENCE : 0 
+ANALYSIS_11B_METHOD_11B        : 1 
+ANALYSIS_11N_AMPLITUDE_TRACKING : 0 
+ANALYSIS_11N_DECODE_PSDU       : 0 
+ANALYSIS_11N_FREQUENCY_CORRELATION : 2 
+ANALYSIS_11N_FULL_PACKET_CHANNEL_EST : 0 
+ANALYSIS_11N_PHASE_CORR        : 1 
+ANALYSIS_11N_SYM_TIMING_CORR   : 1 
+DUT_KEEP_TRANSMIT              : 1 
+DUT_RX_SETTLE_TIME_MS          : 0 ms
+DUT_TX_SETTLE_TIME_MS          : 0 ms
+EVM_AVERAGE                    : 3 
+EVM_CAPTURE_TIME_11AC_HT_GF_US : 300 us
+EVM_CAPTURE_TIME_11AC_HT_MF_US : 300 us
+EVM_CAPTURE_TIME_11AC_NON_HT_US : 300 us
+EVM_CAPTURE_TIME_11AC_VHT_US   : 300 us
+EVM_CAPTURE_TIME_11AG_US       : 95 us
+EVM_CAPTURE_TIME_11B_L_US      : 286 us
+EVM_CAPTURE_TIME_11B_S_US      : 190 us
+EVM_CAPTURE_TIME_11N_GREENFIELD_US : 115 us
+EVM_CAPTURE_TIME_11N_MIXED_US  : 123 us
+EVM_PRE_TRIG_TIME_US           : 3 us
+EVM_SYMBOL_NUM                 : 18 
+IQ_P_TO_A_11AG_12M             : 10 dB
+IQ_P_TO_A_11AG_18M             : 10 dB
+IQ_P_TO_A_11AG_24M             : 10 dB
+IQ_P_TO_A_11AG_36M             : 10 dB
+IQ_P_TO_A_11AG_48M             : 10 dB
+IQ_P_TO_A_11AG_54M             : 10 dB
+IQ_P_TO_A_11AG_6M              : 10 dB
+IQ_P_TO_A_11AG_9M              : 10 dB
+IQ_P_TO_A_11B_11M              : 2 dB
+IQ_P_TO_A_11B_1M               : 2 dB
+IQ_P_TO_A_11B_2M               : 2 dB
+IQ_P_TO_A_11B_5_5M             : 2 dB
+IQ_P_TO_A_11N_MCS0             : 10 dB
+IQ_P_TO_A_11N_MCS1             : 10 dB
+IQ_P_TO_A_11N_MCS2             : 10 dB
+IQ_P_TO_A_11N_MCS3             : 10 dB
+IQ_P_TO_A_11N_MCS4             : 10 dB
+IQ_P_TO_A_11N_MCS5             : 10 dB
+IQ_P_TO_A_11N_MCS6             : 10 dB
+IQ_P_TO_A_11N_MCS7             : 10 dB
+MASK_SMP_TM_DSSS_US            : 286 us
+MASK_SMP_TM_OFDM_US            : 95 us
+PER_FRAME_COUNT_11AC           : 500 dB
+PER_FRAME_COUNT_11AG           : 500 dB
+PER_FRAME_COUNT_11B            : 500 dB
+PER_FRAME_COUNT_11N            : 500 dB
+PER_VSG_TIMEOUT_SEC            : 20 sec
+PM_AVERAGE                     : 3 
+PM_IF_FREQ_SHIFT_MHZ           : 0 MHz
+PM_TRIGGER_DSSS_US             : 100 us
+PM_TRIGGER_OFDM_US             : 20 us
+RESET_TEST_ITEM_DURING_RETRY   : 0 
+RETRY_ERROR_ITEMS              : 0 
+RETRY_TEST_ITEM                : 0 
+SPECTRUM_SMP_TM_DSSS_US        : 286 us
+SPECTRUM_SMP_TM_OFDM_US        : 95 us
+VSA1_PORT                      : 2 
+VSA2_PORT                      : 2 
+VSA3_PORT                      : 2 
+VSA4_PORT                      : 2 
+VSA_PORT                       : 2 
+VSA_SAVE_CAPTURE_ALWAYS        : 0 
+VSA_SAVE_CAPTURE_ON_FAILED     : 1 
+VSA_TRIGGER_TYPE               : 6 
+VSG1_PORT                      : 2 
+VSG2_PORT                      : 2 
+VSG3_PORT                      : 2 
+VSG4_PORT                      : 2 
+VSG_PORT                       : 2 
+VSA_AMPLITUDE_TOLERANCE_DB     : 3.00 dB
+VSA_PRE_TRIGGER_TIME_US        : 3.00 us
+VSA_TRIGGER_LEVEL_DB           : -25.00 dB
+VSG_MAX_POWER_11AC             : -5.00 
+VSG_MAX_POWER_11B              : 0.00 
+VSG_MAX_POWER_11G              : -5.00 
+VSG_MAX_POWER_11N              : -5.00 
+EVM_11N_HT20_MIXED_MCS0_REFERENCE_FILE_NAME : WiFi_HT20_MCS0.ref 
+EVM_11N_HT20_MIXED_MCS10_REFERENCE_FILE_NAME : WiFi_HT20_MCS10.ref 
+EVM_11N_HT20_MIXED_MCS11_REFERENCE_FILE_NAME : WiFi_HT20_MCS11.ref 
+EVM_11N_HT20_MIXED_MCS12_REFERENCE_FILE_NAME : WiFi_HT20_MCS12.ref 
+EVM_11N_HT20_MIXED_MCS13_REFERENCE_FILE_NAME : WiFi_HT20_MCS13.ref 
+EVM_11N_HT20_MIXED_MCS14_REFERENCE_FILE_NAME : WiFi_HT20_MCS14.ref 
+EVM_11N_HT20_MIXED_MCS15_REFERENCE_FILE_NAME : WiFi_HT20_MCS15.ref 
+EVM_11N_HT20_MIXED_MCS16_REFERENCE_FILE_NAME : WiFi_HT20_MCS16.ref 
+EVM_11N_HT20_MIXED_MCS17_REFERENCE_FILE_NAME : WiFi_HT20_MCS17.ref 
+EVM_11N_HT20_MIXED_MCS18_REFERENCE_FILE_NAME : WiFi_HT20_MCS18.ref 
+EVM_11N_HT20_MIXED_MCS19_REFERENCE_FILE_NAME : WiFi_HT20_MCS19.ref 
+EVM_11N_HT20_MIXED_MCS1_REFERENCE_FILE_NAME : WiFi_HT20_MCS1.ref 
+EVM_11N_HT20_MIXED_MCS20_REFERENCE_FILE_NAME : WiFi_HT20_MCS20.ref 
+EVM_11N_HT20_MIXED_MCS21_REFERENCE_FILE_NAME : WiFi_HT20_MCS21.ref 
+EVM_11N_HT20_MIXED_MCS22_REFERENCE_FILE_NAME : WiFi_HT20_MCS22.ref 
+EVM_11N_HT20_MIXED_MCS23_REFERENCE_FILE_NAME : WiFi_HT20_MCS23.ref 
+EVM_11N_HT20_MIXED_MCS2_REFERENCE_FILE_NAME : WiFi_HT20_MCS2.ref 
+EVM_11N_HT20_MIXED_MCS3_REFERENCE_FILE_NAME : WiFi_HT20_MCS3.ref 
+EVM_11N_HT20_MIXED_MCS4_REFERENCE_FILE_NAME : WiFi_HT20_MCS4.ref 
+EVM_11N_HT20_MIXED_MCS5_REFERENCE_FILE_NAME : WiFi_HT20_MCS5.ref 
+EVM_11N_HT20_MIXED_MCS6_REFERENCE_FILE_NAME : WiFi_HT20_MCS6.ref 
+EVM_11N_HT20_MIXED_MCS7_REFERENCE_FILE_NAME : WiFi_HT20_MCS7.ref 
+EVM_11N_HT20_MIXED_MCS8_REFERENCE_FILE_NAME : WiFi_HT20_MCS8.ref 
+EVM_11N_HT20_MIXED_MCS9_REFERENCE_FILE_NAME : WiFi_HT20_MCS9.ref 
+EVM_11N_HT40_MIXED_MCS0_REFERENCE_FILE_NAME : WiFi_HT40_MCS0.ref 
+EVM_11N_HT40_MIXED_MCS10_REFERENCE_FILE_NAME : WiFi_HT40_MCS10.ref 
+EVM_11N_HT40_MIXED_MCS11_REFERENCE_FILE_NAME : WiFi_HT40_MCS11.ref 
+EVM_11N_HT40_MIXED_MCS12_REFERENCE_FILE_NAME : WiFi_HT40_MCS12.ref 
+EVM_11N_HT40_MIXED_MCS13_REFERENCE_FILE_NAME : WiFi_HT40_MCS13.ref 
+EVM_11N_HT40_MIXED_MCS14_REFERENCE_FILE_NAME : WiFi_HT40_MCS14.ref 
+EVM_11N_HT40_MIXED_MCS15_REFERENCE_FILE_NAME : WiFi_HT40_MCS15.ref 
+EVM_11N_HT40_MIXED_MCS16_REFERENCE_FILE_NAME : WiFi_HT40_MCS16.ref 
+EVM_11N_HT40_MIXED_MCS17_REFERENCE_FILE_NAME : WiFi_HT40_MCS17.ref 
+EVM_11N_HT40_MIXED_MCS18_REFERENCE_FILE_NAME : WiFi_HT40_MCS18.ref 
+EVM_11N_HT40_MIXED_MCS19_REFERENCE_FILE_NAME : WiFi_HT40_MCS19.ref 
+EVM_11N_HT40_MIXED_MCS1_REFERENCE_FILE_NAME : WiFi_HT40_MCS1.ref 
+EVM_11N_HT40_MIXED_MCS20_REFERENCE_FILE_NAME : WiFi_HT40_MCS20.ref 
+EVM_11N_HT40_MIXED_MCS21_REFERENCE_FILE_NAME : WiFi_HT40_MCS21.ref 
+EVM_11N_HT40_MIXED_MCS22_REFERENCE_FILE_NAME : WiFi_HT40_MCS22.ref 
+EVM_11N_HT40_MIXED_MCS23_REFERENCE_FILE_NAME : WiFi_HT40_MCS23.ref 
+EVM_11N_HT40_MIXED_MCS2_REFERENCE_FILE_NAME : WiFi_HT40_MCS2.ref 
+EVM_11N_HT40_MIXED_MCS3_REFERENCE_FILE_NAME : WiFi_HT40_MCS3.ref 
+EVM_11N_HT40_MIXED_MCS4_REFERENCE_FILE_NAME : WiFi_HT40_MCS4.ref 
+EVM_11N_HT40_MIXED_MCS5_REFERENCE_FILE_NAME : WiFi_HT40_MCS5.ref 
+EVM_11N_HT40_MIXED_MCS6_REFERENCE_FILE_NAME : WiFi_HT40_MCS6.ref 
+EVM_11N_HT40_MIXED_MCS7_REFERENCE_FILE_NAME : WiFi_HT40_MCS7.ref 
+EVM_11N_HT40_MIXED_MCS8_REFERENCE_FILE_NAME : WiFi_HT40_MCS8.ref 
+EVM_11N_HT40_MIXED_MCS9_REFERENCE_FILE_NAME : WiFi_HT40_MCS9.ref 
+PER_WAVEFORM_DESTINATION_MAC   : 000000C0FFEE 
+PER_WAVEFORM_PATH              : ../mod 
+PER_WAVEFORM_PREFIX_11AC       :  
+PER_WAVEFORM_PREFIX_11AG       :  
+PER_WAVEFORM_PREFIX_11B        :  
+PER_WAVEFORM_PREFIX_11N        :  
+Test Time = 0.000 s
+ERROR_MESSAGE            :[Info] Function completed.
+      
+2.LOAD_PATH_LOSS_TABLE _______________________________________________________
+RX_PATH_LOSS_FILE              : path_loss.csv 
+TX_PATH_LOSS_FILE              : path_loss.csv 
+Test Time = 0.000 s
+ERROR_MESSAGE            :[Info] Function completed.
+      
+3.CONNECT_IQ_TESTER __________________________________________________________
+IQTESTER_RECONNECT             : 0 
+IQTESTER_IP01                  : 192.168.100.254 
+IQTESTER_IP02                  :  
+IQTESTER_IP03                  :  
+IQTESTER_IP04                  :  
+Test Time = 2.172 s
+BLUETOOTH_VERSION        :                               
+ERROR_MESSAGE            :[Info] Function completed.
+      
+IQAPITC_VERSION          :                               
+IQAPI_VERSION            :2.0.1.37.1.2 (Mar 30, 2012)      
+IQMEASURE_VERSION        :0.1.1.37 (2012-4-3) 52999      
+IQTESTER_INFO            :IQmeasure: 0.1.1.37 (2012-4-3) 52999
+iqapi:      2.0.1.37.1.2 (Mar 30, 2012)
+Tester 1 SN: IQXL00392
+Model number: IQXEL
+Firmware revision: 1.1.0
+Tester 1 FW:	1.1.0
+Tester 1 VSAFPGA:	
+Tester 1 VSGFPGA:	
+Tester 1 hardware version:	1.0.0
+Tester 1 SN:	IQXL00392
+      
+IQTESTER_SERIAL_NUM_01   :IQXL00392                      
+IQTESTER_SERIAL_NUM_02   :                               
+IQTESTER_SERIAL_NUM_03   :                               
+IQTESTER_SERIAL_NUM_04   :                               
+IQV_ANALYSIS_VERSION     :                               
+IQV_MW_VERSION           :                               
+IQ_MAX_SIGNAL_VERSION    :                               
+IQ_NXN_SIGNAL_VERSION    :                               
+IQ_NXN_VERSION           :                               
+IQ_ZIGBEE_SIGNAL_VERSION :                               
+TEST_MANAGER_VERSION     :1.6.0 (2010-09-17)
+            
+4.INSERT_DUT _________________________________________________________________
+RELOAD_DUT_DLL                 : 0 
+CONNECTION_STRING              : ip=192.168.1.1;prompt='# ';username=test;password=test;log_ssh=0 
+DUT_DLL_FILENAME               : Brcm_4360_TELNET.dll 
+EEPROM_FILENAME                :  
+OPTION_STRING                  : 2gcmd=wl;5gcmd=wl -i eth2 
+Test Time = 0.000 s
+DUT_VERSION              :0.1.0.1_eng (2012-3-28)        
+ERROR_MESSAGE            :[Info] Function completed.
+      
+VDUT_VERSION             :1.6.0 (2010-09-17)
+            
+5.INITIALIZE_DUT _____________________________________________________________
+Test Time = 2.031 s
+DUT_DRIVER_INFO          :6.30 RC21.0                    
+DUT_NAME                 :4360                           
+ERROR_MESSAGE            :[Info] Function completed.
+      
+6.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT __________________________________________
+BSS_FREQ_MHZ_PRIMARY           : 5210 MHz
+BSS_FREQ_MHZ_SECONDARY         : 0 MHz
+CH_FREQ_MHZ                    : 5210 MHz
+CH_FREQ_MHZ_PRIMARY_20MHz      : 0 MHz
+NUM_STREAM_11AC                : 1 
+TX1                            : 1 
+TX2                            : 0 
+TX3                            : 0 
+TX4                            : 0 
+CABLE_LOSS_DB_VSA1             : 0.00 dB
+CABLE_LOSS_DB_VSA2             : 0.00 dB
+CABLE_LOSS_DB_VSA3             : 0.00 dB
+CABLE_LOSS_DB_VSA4             : 0.00 dB
+SAMPLING_TIME_US               : 0.00 us
+TX_POWER_DBM                   : 9 dBm
+BSS_BANDWIDTH                  : BW-80 MHz
+CH_BANDWIDTH                   : CBW-80 MHz
+DATA_RATE                      : MCS9 
+PACKET_FORMAT                  : 11AC_VHT 
+PREAMBLE                       : SHORT 
+TX_ANALYSIS_ORDER              : -1,-1,-1,-1 
+VSA1_CONNECTION                : TX1 
+VSA1_PORT                      :  
+VSA2_CONNECTION                : TX2 
+VSA2_PORT                      :  
+VSA3_CONNECTION                : TX3 
+VSA3_PORT                      :  
+VSA4_CONNECTION                : TX4 
+VSA4_PORT                      :  
+Test Time = 4.203 s
+CH_FREQ_MHZ_PRIMARY_40MHz:        5190                MHz (, )
+CH_FREQ_MHZ_PRIMARY_80MHz:        5210                MHz (, )
+NUMBER_OF_AVG            :           3                    (, )
+SPATIAL_STREAM           :           1                    (, )
+AMP_ERR_DB_S1            :           0.05              dB (, )
+CABLE_LOSS_DB_VSA1       :          27.55              dB (, )
+CABLE_LOSS_DB_VSA2       :          27.20              dB (, )
+CABLE_LOSS_DB_VSA3       :          27.13              dB (, )
+CABLE_LOSS_DB_VSA4       :          26.75              dB (, )
+DATA_RATE                :         390.00            Mbps (, )
+EVM_DB_ALL               :         -36.18              dB (, )
+EVM_DB_AVG_S1            :         -36.18              dB (, -32.00)
+EVM_DB_MAX_S1            :         -34.75              dB (, )
+EVM_DB_MIN_S1            :         -37.43              dB (, )
+FREQ_ERROR_PPM_AVG_S1    :           0.95             ppm (, )
+FREQ_ERROR_PPM_MAX_S1    :           0.96             ppm (, )
+FREQ_ERROR_PPM_MIN_S1    :           0.94             ppm (, )
+PHASE_ERR_DEG_S1         :           0.86           Degree (, )
+PHASE_NOISE_RMS_ALL      :           0.30           Degree (, )
+POWER_DBM_RMS_AVG_S1     :           9.88             dBm (7, 11.00)
+POWER_DBM_RMS_AVG_VSA1   :           9.88             dBm (, )
+POWER_DBM_RMS_MAX_S1     :           9.89             dBm (, )
+POWER_DBM_RMS_MAX_VSA1   :           9.89             dBm (, )
+POWER_DBM_RMS_MIN_S1     :           9.87             dBm (, )
+POWER_DBM_RMS_MIN_VSA1   :           9.87             dBm (, )
+POWER_DBM_RMS_S1_VSA1    :           9.88             dBm (, )
+SYMBOL_CLK_ERR_S1        :           1.10             ppm (, )
+ERROR_MESSAGE            :[Info] Function completed.
+      
+7.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT __________________________________________
+BSS_FREQ_MHZ_PRIMARY           : 5210 MHz
+BSS_FREQ_MHZ_SECONDARY         : 0 MHz
+CH_FREQ_MHZ                    : 5210 MHz
+CH_FREQ_MHZ_PRIMARY_20MHz      : 0 MHz
+NUM_STREAM_11AC                : 1 
+TX1                            : 0 
+TX2                            : 1 
+TX3                            : 0 
+TX4                            : 0 
+CABLE_LOSS_DB_VSA1             : 0.00 dB
+CABLE_LOSS_DB_VSA2             : 0.00 dB
+CABLE_LOSS_DB_VSA3             : 0.00 dB
+CABLE_LOSS_DB_VSA4             : 0.00 dB
+SAMPLING_TIME_US               : 0.00 us
+TX_POWER_DBM                   : 9 dBm
+BSS_BANDWIDTH                  : BW-80 MHz
+CH_BANDWIDTH                   : CBW-80 MHz
+DATA_RATE                      : MCS9 
+PACKET_FORMAT                  : 11AC_VHT 
+PREAMBLE                       : SHORT 
+TX_ANALYSIS_ORDER              : -1,-1,-1,-1 
+VSA1_CONNECTION                : TX1 
+VSA1_PORT                      :  
+VSA2_CONNECTION                : TX2 
+VSA2_PORT                      :  
+VSA3_CONNECTION                : TX3 
+VSA3_PORT                      :  
+VSA4_CONNECTION                : TX4 
+VSA4_PORT                      :  
+Test Time = 3.531 s
+CH_FREQ_MHZ_PRIMARY_40MHz:        5190                MHz (, )
+CH_FREQ_MHZ_PRIMARY_80MHz:        5210                MHz (, )
+NUMBER_OF_AVG            :           3                    (, )
+SPATIAL_STREAM           :           1                    (, )
+AMP_ERR_DB_S1            :           0.02              dB (, )
+CABLE_LOSS_DB_VSA1       :          27.55              dB (, )
+CABLE_LOSS_DB_VSA2       :          27.20              dB (, )
+CABLE_LOSS_DB_VSA3       :          27.13              dB (, )
+CABLE_LOSS_DB_VSA4       :          26.75              dB (, )
+DATA_RATE                :         390.00            Mbps (, )
+EVM_DB_ALL               :         -38.61              dB (, )
+EVM_DB_AVG_S1            :         -38.61              dB (, -32.00)
+EVM_DB_MAX_S1            :         -38.32              dB (, )
+EVM_DB_MIN_S1            :         -38.79              dB (, )
+FREQ_ERROR_PPM_AVG_S1    :           0.83             ppm (, )
+FREQ_ERROR_PPM_MAX_S1    :           0.85             ppm (, )
+FREQ_ERROR_PPM_MIN_S1    :           0.81             ppm (, )
+PHASE_ERR_DEG_S1         :          -0.04           Degree (, )
+PHASE_NOISE_RMS_ALL      :           0.25           Degree (, )
+POWER_DBM_RMS_AVG_S1     :           9.51             dBm (7, 11.00)
+POWER_DBM_RMS_MAX_S1     :           9.68             dBm (, )
+POWER_DBM_RMS_MIN_S1     :           9.41             dBm (, )
+POWER_DBM_RMS_S1_VSA2    :           9.51             dBm (, )
+SYMBOL_CLK_ERR_S1        :           1.16             ppm (, )
+ERROR_MESSAGE            :[Info] Function completed.
+      
+8.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT __________________________________________
+BSS_FREQ_MHZ_PRIMARY           : 5210 MHz
+BSS_FREQ_MHZ_SECONDARY         : 0 MHz
+CH_FREQ_MHZ                    : 5210 MHz
+CH_FREQ_MHZ_PRIMARY_20MHz      : 0 MHz
+NUM_STREAM_11AC                : 1 
+TX1                            : 0 
+TX2                            : 0 
+TX3                            : 1 
+TX4                            : 0 
+CABLE_LOSS_DB_VSA1             : 0.00 dB
+CABLE_LOSS_DB_VSA2             : 0.00 dB
+CABLE_LOSS_DB_VSA3             : 0.00 dB
+CABLE_LOSS_DB_VSA4             : 0.00 dB
+SAMPLING_TIME_US               : 0.00 us
+TX_POWER_DBM                   : 9 dBm
+BSS_BANDWIDTH                  : BW-80 MHz
+CH_BANDWIDTH                   : CBW-80 MHz
+DATA_RATE                      : MCS9 
+PACKET_FORMAT                  : 11AC_VHT 
+PREAMBLE                       : SHORT 
+TX_ANALYSIS_ORDER              : -1,-1,-1,-1 
+VSA1_CONNECTION                : TX1 
+VSA1_PORT                      :  
+VSA2_CONNECTION                : TX2 
+VSA2_PORT                      :  
+VSA3_CONNECTION                : TX3 
+VSA3_PORT                      :  
+VSA4_CONNECTION                : TX4 
+VSA4_PORT                      :  
+Test Time = 3.313 s
+CH_FREQ_MHZ_PRIMARY_40MHz:        5190                MHz (, )
+CH_FREQ_MHZ_PRIMARY_80MHz:        5210                MHz (, )
+NUMBER_OF_AVG            :           3                    (, )
+SPATIAL_STREAM           :           1                    (, )
+AMP_ERR_DB_S1            :          -0.02              dB (, )
+CABLE_LOSS_DB_VSA1       :          27.55              dB (, )
+CABLE_LOSS_DB_VSA2       :          27.20              dB (, )
+CABLE_LOSS_DB_VSA3       :          27.13              dB (, )
+CABLE_LOSS_DB_VSA4       :          26.75              dB (, )
+DATA_RATE                :         390.00            Mbps (, )
+EVM_DB_ALL               :         -38.07              dB (, )
+EVM_DB_AVG_S1            :         -38.07              dB (, -32.00)
+EVM_DB_MAX_S1            :         -37.89              dB (, )
+EVM_DB_MIN_S1            :         -38.27              dB (, )
+FREQ_ERROR_PPM_AVG_S1    :           0.73             ppm (, )
+FREQ_ERROR_PPM_MAX_S1    :           0.75             ppm (, )
+FREQ_ERROR_PPM_MIN_S1    :           0.71             ppm (, )
+PHASE_ERR_DEG_S1         :          -0.51           Degree (, )
+PHASE_NOISE_RMS_ALL      :           0.19           Degree (, )
+POWER_DBM_RMS_AVG_S1     :           9.42             dBm (7, 11.00)
+POWER_DBM_RMS_MAX_S1     :           9.43             dBm (, )
+POWER_DBM_RMS_MIN_S1     :           9.40             dBm (, )
+POWER_DBM_RMS_S1_VSA3    :           9.42             dBm (, )
+SYMBOL_CLK_ERR_S1        :           1.11             ppm (, )
+ERROR_MESSAGE            :[Info] Function completed.
+      
+9.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT __________________________________________
+BSS_FREQ_MHZ_PRIMARY           : 5775 MHz
+BSS_FREQ_MHZ_SECONDARY         : 0 MHz
+CH_FREQ_MHZ                    : 5775 MHz
+CH_FREQ_MHZ_PRIMARY_20MHz      : 0 MHz
+NUM_STREAM_11AC                : 1 
+TX1                            : 1 
+TX2                            : 0 
+TX3                            : 0 
+TX4                            : 0 
+CABLE_LOSS_DB_VSA1             : 0.00 dB
+CABLE_LOSS_DB_VSA2             : 0.00 dB
+CABLE_LOSS_DB_VSA3             : 0.00 dB
+CABLE_LOSS_DB_VSA4             : 0.00 dB
+SAMPLING_TIME_US               : 0.00 us
+TX_POWER_DBM                   : 16.5 dBm
+BSS_BANDWIDTH                  : BW-80 MHz
+CH_BANDWIDTH                   : CBW-80 MHz
+DATA_RATE                      : MCS9 
+PACKET_FORMAT                  : 11AC_VHT 
+PREAMBLE                       : SHORT 
+TX_ANALYSIS_ORDER              : -1,-1,-1,-1 
+VSA1_CONNECTION                : TX1 
+VSA1_PORT                      :  
+VSA2_CONNECTION                : TX2 
+VSA2_PORT                      :  
+VSA3_CONNECTION                : TX3 
+VSA3_PORT                      :  
+VSA4_CONNECTION                : TX4 
+VSA4_PORT                      :  
+Test Time = 4.015 s
+CH_FREQ_MHZ_PRIMARY_40MHz:        5755                MHz (, )
+CH_FREQ_MHZ_PRIMARY_80MHz:        5775                MHz (, )
+NUMBER_OF_AVG            :           3                    (, )
+SPATIAL_STREAM           :           1                    (, )
+AMP_ERR_DB_S1            :          -0.06              dB (, )
+CABLE_LOSS_DB_VSA1       :          28.66              dB (, )
+CABLE_LOSS_DB_VSA2       :          28.80              dB (, )
+CABLE_LOSS_DB_VSA3       :          28.90              dB (, )
+CABLE_LOSS_DB_VSA4       :          28.78              dB (, )
+DATA_RATE                :         390.00            Mbps (, )
+EVM_DB_ALL               :         -38.32              dB (, )
+EVM_DB_AVG_S1            :         -38.32              dB (, -32.00)
+EVM_DB_MAX_S1            :         -38.14              dB (, )
+EVM_DB_MIN_S1            :         -38.68              dB (, )
+FREQ_ERROR_PPM_AVG_S1    :           1.26             ppm (, )
+FREQ_ERROR_PPM_MAX_S1    :           1.27             ppm (, )
+FREQ_ERROR_PPM_MIN_S1    :           1.24             ppm (, )
+PHASE_ERR_DEG_S1         :          -0.11           Degree (, )
+PHASE_NOISE_RMS_ALL      :           0.14           Degree (, )
+POWER_DBM_RMS_AVG_S1     :          17.72             dBm (14.50, 18.50)
+POWER_DBM_RMS_AVG_VSA1   :          17.72             dBm (, )
+POWER_DBM_RMS_MAX_S1     :          17.73             dBm (, )
+POWER_DBM_RMS_MAX_VSA1   :          17.73             dBm (, )
+POWER_DBM_RMS_MIN_S1     :          17.71             dBm (, )
+POWER_DBM_RMS_MIN_VSA1   :          17.71             dBm (, )
+POWER_DBM_RMS_S1_VSA1    :          17.72             dBm (, )
+SYMBOL_CLK_ERR_S1        :           1.09             ppm (, )
+ERROR_MESSAGE            :[Info] Function completed.
+      
+10.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT _________________________________________
+BSS_FREQ_MHZ_PRIMARY           : 5775 MHz
+BSS_FREQ_MHZ_SECONDARY         : 0 MHz
+CH_FREQ_MHZ                    : 5775 MHz
+CH_FREQ_MHZ_PRIMARY_20MHz      : 0 MHz
+NUM_STREAM_11AC                : 1 
+TX1                            : 0 
+TX2                            : 1 
+TX3                            : 0 
+TX4                            : 0 
+CABLE_LOSS_DB_VSA1             : 0.00 dB
+CABLE_LOSS_DB_VSA2             : 0.00 dB
+CABLE_LOSS_DB_VSA3             : 0.00 dB
+CABLE_LOSS_DB_VSA4             : 0.00 dB
+SAMPLING_TIME_US               : 0.00 us
+TX_POWER_DBM                   : 16.5 dBm
+BSS_BANDWIDTH                  : BW-80 MHz
+CH_BANDWIDTH                   : CBW-80 MHz
+DATA_RATE                      : MCS9 
+PACKET_FORMAT                  : 11AC_VHT 
+PREAMBLE                       : SHORT 
+TX_ANALYSIS_ORDER              : -1,-1,-1,-1 
+VSA1_CONNECTION                : TX1 
+VSA1_PORT                      :  
+VSA2_CONNECTION                : TX2 
+VSA2_PORT                      :  
+VSA3_CONNECTION                : TX3 
+VSA3_PORT                      :  
+VSA4_CONNECTION                : TX4 
+VSA4_PORT                      :  
+Test Time = 3.500 s
+CH_FREQ_MHZ_PRIMARY_40MHz:        5755                MHz (, )
+CH_FREQ_MHZ_PRIMARY_80MHz:        5775                MHz (, )
+NUMBER_OF_AVG            :           3                    (, )
+SPATIAL_STREAM           :           1                    (, )
+AMP_ERR_DB_S1            :          -0.06              dB (, )
+CABLE_LOSS_DB_VSA1       :          28.66              dB (, )
+CABLE_LOSS_DB_VSA2       :          28.80              dB (, )
+CABLE_LOSS_DB_VSA3       :          28.90              dB (, )
+CABLE_LOSS_DB_VSA4       :          28.78              dB (, )
+DATA_RATE                :         390.00            Mbps (, )
+EVM_DB_ALL               :         -37.71              dB (, )
+EVM_DB_AVG_S1            :         -37.71              dB (, -32.00)
+EVM_DB_MAX_S1            :         -36.97              dB (, )
+EVM_DB_MIN_S1            :         -38.88              dB (, )
+FREQ_ERROR_PPM_AVG_S1    :           0.58             ppm (, )
+FREQ_ERROR_PPM_MAX_S1    :           0.59             ppm (, )
+FREQ_ERROR_PPM_MIN_S1    :           0.57             ppm (, )
+PHASE_ERR_DEG_S1         :          -0.15           Degree (, )
+PHASE_NOISE_RMS_ALL      :           0.16           Degree (, )
+POWER_DBM_RMS_AVG_S1     :          17.83             dBm (14.50, 18.50)
+POWER_DBM_RMS_MAX_S1     :          17.85             dBm (, )
+POWER_DBM_RMS_MIN_S1     :          17.80             dBm (, )
+POWER_DBM_RMS_S1_VSA2    :          17.83             dBm (, )
+SYMBOL_CLK_ERR_S1        :           0.87             ppm (, )
+ERROR_MESSAGE            :[Info] Function completed.
+      
+11.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT _________________________________________
+BSS_FREQ_MHZ_PRIMARY           : 5775 MHz
+BSS_FREQ_MHZ_SECONDARY         : 0 MHz
+CH_FREQ_MHZ                    : 5775 MHz
+CH_FREQ_MHZ_PRIMARY_20MHz      : 0 MHz
+NUM_STREAM_11AC                : 1 
+TX1                            : 0 
+TX2                            : 0 
+TX3                            : 1 
+TX4                            : 0 
+CABLE_LOSS_DB_VSA1             : 0.00 dB
+CABLE_LOSS_DB_VSA2             : 0.00 dB
+CABLE_LOSS_DB_VSA3             : 0.00 dB
+CABLE_LOSS_DB_VSA4             : 0.00 dB
+SAMPLING_TIME_US               : 0.00 us
+TX_POWER_DBM                   : 16.5 dBm
+BSS_BANDWIDTH                  : BW-80 MHz
+CH_BANDWIDTH                   : CBW-80 MHz
+DATA_RATE                      : MCS9 
+PACKET_FORMAT                  : 11AC_VHT 
+PREAMBLE                       : SHORT 
+TX_ANALYSIS_ORDER              : -1,-1,-1,-1 
+VSA1_CONNECTION                : TX1 
+VSA1_PORT                      :  
+VSA2_CONNECTION                : TX2 
+VSA2_PORT                      :  
+VSA3_CONNECTION                : TX3 
+VSA3_PORT                      :  
+VSA4_CONNECTION                : TX4 
+VSA4_PORT                      :  
+Test Time = 3.250 s
+CH_FREQ_MHZ_PRIMARY_40MHz:        5755                MHz (, )
+CH_FREQ_MHZ_PRIMARY_80MHz:        5775                MHz (, )
+NUMBER_OF_AVG            :           3                    (, )
+SPATIAL_STREAM           :           1                    (, )
+AMP_ERR_DB_S1            :          -0.04              dB (, )
+CABLE_LOSS_DB_VSA1       :          28.66              dB (, )
+CABLE_LOSS_DB_VSA2       :          28.80              dB (, )
+CABLE_LOSS_DB_VSA3       :          28.90              dB (, )
+CABLE_LOSS_DB_VSA4       :          28.78              dB (, )
+DATA_RATE                :         390.00            Mbps (, )
+EVM_DB_ALL               :         -38.36              dB (, )
+EVM_DB_AVG_S1            :         -38.36              dB (, -32.00)
+EVM_DB_MAX_S1            :         -38.01              dB (, )
+EVM_DB_MIN_S1            :         -38.55              dB (, )
+FREQ_ERROR_PPM_AVG_S1    :           0.53             ppm (, )
+FREQ_ERROR_PPM_MAX_S1    :           0.54             ppm (, )
+FREQ_ERROR_PPM_MIN_S1    :           0.51             ppm (, )
+PHASE_ERR_DEG_S1         :          -0.44           Degree (, )
+PHASE_NOISE_RMS_ALL      :           0.16           Degree (, )
+POWER_DBM_RMS_AVG_S1     :          18.17             dBm (14.50, 18.50)
+POWER_DBM_RMS_MAX_S1     :          18.19             dBm (, )
+POWER_DBM_RMS_MIN_S1     :          18.15             dBm (, )
+POWER_DBM_RMS_S1_VSA3    :          18.17             dBm (, )
+SYMBOL_CLK_ERR_S1        :           0.87             ppm (, )
+ERROR_MESSAGE            :[Info] Function completed.
+      
+12.REMOVE_DUT ________________________________________________________________
+Test Time = 0.219 s
+ERROR_MESSAGE            :[Info] Function completed.
+      
+13.DISCONNECT_IQ_TESTER ______________________________________________________
+Test Time = 0.000 s
+ERROR_MESSAGE            :[Info] Function completed.
+      
+14.RUN_EXTERNAL_PROGRAM ______________________________________________________
+WAIT_TIME_MS                   : 100 ms
+ARGUMENTS                      :  
+PROGRAM_NAME                   : 2IQ.bat 
+PROGRAM_WORKING_DIRECTORY      :  
+RESULT_FILE_NAME               :  
+Test Time = 0.219 s
+ERROR_MESSAGE            :[Info] Function completed.
+      
+EXE_CHECK                :                               
+--------------------------------------------------------------------
+                         *************
+                         *  P A S S  *
+                         *************
+1.GLOBAL_SETTINGS                               :0.000 s                     
+2.LOAD_PATH_LOSS_TABLE                          :0.000 s                     
+3.CONNECT_IQ_TESTER                             :2.172 s                     
+4.INSERT_DUT                                    :0.000 s                     
+5.INITIALIZE_DUT                                :2.031 s                     
+6.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT             :4.203 s                     
+7.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT             :3.531 s                     
+8.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT             :3.313 s                     
+9.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT             :4.015 s                     
+10.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT            :3.500 s                     
+11.TX_VERIFY_EVM MCS9 BW-80 11AC_VHT            :3.250 s                     
+12.REMOVE_DUT                                   :0.219 s                     
+13.DISCONNECT_IQ_TESTER                         :0.000 s                     
+14.RUN_EXTERNAL_PROGRAM                         :0.219 s                     
+Total Run(s)                :1
+Passed Run(s)               :1
+Failed Run(s) on Limits     :0
+Failed Run(s) on Errors     :0
+In This Run:
+    Fail(s) on Limits       :0
+    Fail(s) on Errors       :0
+    Flow Run Time           :27.828
+    Test Function Time      :26.453
+--------------------------------------------------------------------
