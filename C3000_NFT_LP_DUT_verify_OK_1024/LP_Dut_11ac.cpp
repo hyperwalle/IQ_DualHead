@@ -556,7 +556,8 @@ int LP_initialize_dut(void)
 			return api_status;
 		}
 
-		
+		//C3000 don't need run telnetenable.exe
+		/*
 		char szDutMac[30]="00904C012001";
 		if(csSocket.bRunTelnetEnabled)
 		{
@@ -567,7 +568,7 @@ int LP_initialize_dut(void)
 				return api_status;
 			}
 		}
-		
+		*/
 
 		ErrorCode=0;
 
@@ -576,14 +577,15 @@ int LP_initialize_dut(void)
 		strSocketBuf.clear();
 		while(nTelnetNum--)
 		{
-			
+			//C3000 don't need run telnetenable.exe
+			/*
 			if(csSocket.bRunTelnetEnabled && !IP_TelnetEnable(csSocket.szDutIP,szDutMac))
 			{
 				ErrorCode=5;
 				CheckReturnError(api_status, "[Error] Failed to get dut mac.\n");
 				continue;
 			}
-			
+			*/
 			printf("beging to Init Socket");
 			if(InitSocket(csSocket.szDutIP,ErrorCode))
 			{
