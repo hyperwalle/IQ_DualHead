@@ -607,6 +607,14 @@ int LP_initialize_dut(void)
 		}
 		else
 		{
+			//login into DUT(need input username and password)
+		    SendSocketCmd("\r\n", "", 2000);
+			SendSocketCmd("\r\n", "", 2000);
+			SendSocketCmd("\r\n", "", 2000);
+
+			//stop DUT scan freq
+			SendDutCmd("","doc/sc");
+
 			//set beacon power time
 			SendDutCmd("","wl -i wl0 bi 1");
 			SendDutCmd("","wl -i wl1 bi 1");
