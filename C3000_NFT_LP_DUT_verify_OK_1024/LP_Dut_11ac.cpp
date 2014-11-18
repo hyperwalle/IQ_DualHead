@@ -464,8 +464,9 @@ int LP_remove_dut(void)
 		}
 
 		bRequestExit = true;
-		SendSocketCmd("wl out\r\n","",500);
-		SendSocketCmd("wl -i eth2 out\r\n","",500);
+		//C3000/C3700 don't need this command
+		//SendSocketCmd("wl out\r\n","",500);
+		//SendSocketCmd("wl -i eth2 out\r\n","",500);
 		SendSocketCmd("exit\r\n","",500);
 		//bOldSameDut = false;
 		IsSameDut.nOldBandWidth = -1;
