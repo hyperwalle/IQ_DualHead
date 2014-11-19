@@ -615,6 +615,11 @@ int LP_initialize_dut(void)
 
 			//stop DUT scan freq
 			SendDutCmd("","doc/sc");
+			SendSocketCmd("\r\n", "", 2000);
+
+			//to wifi command path
+			SendSocketCmd("\r\n", ">", 2000);
+			SendSocketCmd("cd /wifi\r\n", ">", 2000);
 
 			//set beacon power time
 			SendDutCmd("","wl -i wl0 bi 1");
