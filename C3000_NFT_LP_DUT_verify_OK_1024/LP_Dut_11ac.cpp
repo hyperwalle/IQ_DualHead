@@ -617,6 +617,15 @@ int LP_initialize_dut(void)
 			SendDutCmd("","doc/sc");
 			SendSocketCmd("\r\n", "", 2000);
 
+			//enable WIFI radio
+			SendSocketCmd("cd /snmp\r\n", ">", 2000);			
+			// To enable WiFi 2.4G Radio
+			SendSocketCmd("set (0) wifiRadioEnable.32 int 1\r\n", ">", 2000);				
+			// To enable WiFi 5G Radio
+			SendSocketCmd("set (0) wifiRadioEnable.112 int 1\r\n", ">", 2000);				
+			// To apply WiFi settings
+			SendSocketCmd("set (0) wifiApplySettings.0 int 1\r\n", ">", 2000);	
+
 			//to wifi command path
 			SendSocketCmd("\r\n", ">", 2000);
 			SendSocketCmd("cd /wifi\r\n", ">", 2000);
