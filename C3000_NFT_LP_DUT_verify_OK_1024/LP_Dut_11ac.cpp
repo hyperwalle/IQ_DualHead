@@ -467,6 +467,9 @@ int LP_remove_dut(void)
 		//C3000/C3700 don't need this command
 		//SendSocketCmd("wl out\r\n","",500);
 		//SendSocketCmd("wl -i eth2 out\r\n","",500);
+		
+		//this 'exit' command is used for exit unit socket.
+		//If not send this command: another socket connection to unit, will show 'Connection refused' error.
 		SendSocketCmd("exit\r\n","",500);
 		//bOldSameDut = false;
 		IsSameDut.nOldBandWidth = -1;
