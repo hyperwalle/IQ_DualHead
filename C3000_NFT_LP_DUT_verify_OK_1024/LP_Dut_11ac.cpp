@@ -470,6 +470,7 @@ int LP_remove_dut(void)
 		
 		//this 'exit' command is used for exit unit socket.
 		//If not send this command: another socket connection to unit, will show 'Connection refused' error.
+		SendSocketCmd("cd ..\r\n","",500);
 		SendSocketCmd("exit\r\n","",500);
 		//bOldSameDut = false;
 		IsSameDut.nOldBandWidth = -1;
